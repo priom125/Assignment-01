@@ -9,6 +9,8 @@
 body{
   width: 100%;
   overflow-x: hidden;
+  background: #f6f8ff;
+ 
 }
 .banner-img {
   width: 100vw;
@@ -81,18 +83,16 @@ body{
   background-color: #3a3aff;
 }
 /* -------------------header end------------------ */
-.container {
-  width: 100%;
-  height: 100vh;
 
-  
-}
 .action {
+    width: 1140px;
+  height: 328px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 35px 150px;
- margin-top: -62px;
+  padding: 35px auto;
+ margin-top: -30px !important;
+ margin: 0 auto;
 }
 .action .left {
   width: 30%;
@@ -187,5 +187,93 @@ body{
   justify-content: center;
   text-align: center;
 }
+/* -----------------------------productive elements end---------------------------- */
+.get-touch {
+  width: 1140px;
+  height: 632px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: none; 
+  border-radius: 24px;
+  padding: 40px 60px;
+  box-sizing: border-box;
+}
+
+.get-touch h1 {
+  flex: 1;
+  font-family: "Raleway", sans-serif;
+  font-size: 72px;
+  font-weight: 800;
+  color: #1e1e1e;
+  text-align: left;
+  margin-right: 40px;
+  line-height: 1.1;
+}
+
+.form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background: none;
+  max-width: 100%;
+}
+
+.input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input label {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: #1e1e1e;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.input input,
+.input textarea {
+  width: 100%;
+  padding: 14px 18px;
+  border: 1.5px solid #e0e3eb;
+  border-radius: 8px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  background: #fff;
+  outline: none;
+  transition: border 0.2s;
+  box-sizing: border-box;
+}
 
 
+
+.input textarea {
+ height: 90px;
+ width: 100%;
+  resize: none;
+}
+
+.form button {
+  width: 100%;
+  margin-top: 12px;
+  padding: 14px 0;
+  border: none;
+  border-radius: 8px;
+  background-color: #4E47FF;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.form button:hover {
+  background-color: #3a3aff;
+}
+
+/* ------------------------------Get in touch section end---------------------------- */
