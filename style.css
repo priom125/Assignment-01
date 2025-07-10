@@ -6,6 +6,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
 .banner-img {
   width: 100vw;
   height: 100vh;
@@ -36,7 +40,7 @@
   border-radius: 5px;
   background-color: #4E47FF;
   color: white;
-  font-family: "Montserrat", sans-serif;
+ font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: normal;
   cursor: pointer;
@@ -54,17 +58,17 @@
   text-align: center;
 }
 .content h1 {
-  font-family: "Montserrat", sans-serif;
+   font-family: "Raleway", sans-serif;
   font-size: 65px;
   font-weight: bold;
 }
-.content button {
+.btn{
   padding: 12px 36px;
   border: none;
   border-radius: 5px;
   background-color: #4E47FF;
   color: white;
-  font-family: "Montserrat", sans-serif;
+   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: normal;
   cursor: pointer;
@@ -73,6 +77,64 @@
   margin-top: 40px;
   font-weight: 600;
 }
-.content button:hover {
+.btn button:hover {
   background-color: #3a3aff;
 }
+/* -------------------header end------------------ */
+.container {
+  width: 100%;
+  height: 100vh;
+
+  
+}
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 150px;
+ margin-top: -62px;
+}
+.action .left {
+  width: 30%;
+}
+.action .left h2 {
+ font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+}
+.action .left p {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  opacity: 0.5;
+  margin-top: 25px;
+  color: #252432;
+}
+.action .left .btn {
+  padding: 12px 36px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4E47FF;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s ease;
+}
+.action .left .btn:hover {
+  background-color: #3a3aff;
+}
+.action .right {
+  
+  display: flex;
+  
+}
+.action .right img {
+  width: 403px;
+  height: 328px;
+  
+  border-radius: 20%;
+}
+
