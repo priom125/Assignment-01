@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   margin: 0;
@@ -94,6 +94,7 @@ body{
  margin-top: -30px !important;
  margin: 0 auto;
  
+ 
 }
 .action .left {
   width: 45%;
@@ -147,8 +148,9 @@ body{
   height: 306px;
   background-color: rgba(78, 71, 255, 0.1);
   align-items: center;
-   margin: 0 auto;
+  margin: 0 auto;
    border-radius: 24px;
+   
 }
 
 .productive h3 {
@@ -190,6 +192,153 @@ body{
   text-align: center;
 }
 /* -----------------------------productive elements end---------------------------- */
+.testimonials {
+  width: 1140px;
+  background: #f6f8ff;
+  padding: 60px 0 40px 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.testimonials-inner {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.testimonials-title {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+  color: #252432;
+  margin-bottom: 40px;
+}
+
+.testimonials-list {
+  display: flex;
+  justify-content: center;
+   gap: 90px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(30,30,30,0.04);
+  padding: 28px 24px 20px 24px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border: 1px solid #f0f0f0;
+}
+
+.stars {
+  color: #FFD600;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.testimonial-card h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #252432;
+  margin: 0 0 6px 0;
+}
+
+.testimonial-card p {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: #252432;
+  opacity: 0.7;
+  margin: 0 0 16px 0;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-name {
+  display: block;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #252432;
+}
+
+.reviewer-date {
+  display: block;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  color: #b0b0b0;
+}
+/* ------------------------------Testimonials section end---------------------------- */
+
+.focus-better {
+  width: 1140px;
+  height: 696px;
+  margin: 0 auto;
+  margin-top: 80px;
+  align-items: center;
+  justify-content: space-between;
+  background: #FFFFFF;
+  border-radius: 24px;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  
+}
+.focus-better h1 {
+  flex: 1;
+  font-family: "Raleway", sans-serif;
+  font-size: 72px;
+  font-weight: 800;
+  color: #1e1e1e;
+  text-align: left;
+  margin-right: 40px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+.focus-better p {
+  flex: 1;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: #8c8ca1;
+  text-align: left;
+  margin-right: 40px;
+  line-height: 1.5;
+}
+
+.focus-better .btn{
+   margin-bottom: 30px;
+   padding: 10px auto;
+}
+
+.focus-better img {
+  flex: 1;
+  width: 840px;
+  height: 365px;
+ 
+  
+  border-radius: 48px;
+}
+
+
+
+/* -------------------------------Focu better section end----------------------------  */
 .get-touch {
   width: 1140px;
   height: 632px;
@@ -329,4 +478,4 @@ body{
 .hero-nav a:hover {
   color: #4E47FF;
 }
-/* --------------------------------footer and footer section end---------------------------- */ 
+/* --------------------------------footer and footer section end---------------------------- */
