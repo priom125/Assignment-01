@@ -34,6 +34,7 @@ body{
   font-family: "Inter", sans-serif;
   font-size: 34px;
   font-weight: 800;
+
 }
 
 .header button {
@@ -63,6 +64,7 @@ body{
    font-family: "Raleway", sans-serif;
   font-size: 65px;
   font-weight: bold;
+  width: 827px;
 }
 .btn{
   padding: 12px 36px;
